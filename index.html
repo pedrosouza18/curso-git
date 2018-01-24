@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Curso Git</title>
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
 	<h1>Curso GIT</h1>
@@ -20,6 +21,18 @@
 	<p>git remote add origin https://github.com/pedrosouza18/curso-git.git - Adiciona um repositório remoto</p>
 	<p>git push origin(repositorio remoto) master(branch a ser criado ou ja criado)</p>
 	<p>git clone https://github.com/pedrosouza18/curso-git.git - Baixar repositório</p>
-	<p>Show Pedro</p>
+	<p>git branch - Verificar os branches disponíveis</p>
+	<p>git branch xxxx - Cria uma nova branch</p>
+	<p>git checkout (branch)xxxx - Troca de branch</p>
+	<p>git checkout -b (branch)xxxx - Cria e Troca de branch</p>
+	<p>git branch -d ou -D - Remove uma branch</p>
+	<p>git push -u origin design - Ao digitar o comando git push -u origin design, 
+		criamos a branch remota design no repositório referente ao origin e criamos uma ligação entre a nossa branch e a branch remota.</p>
+	<p>git branch -r - Lista as branchs remotas</p>
+	<p>git branch -a - Lista as branchs remotas e locais</p>
+	<p>git checkout -t origin/design - Com o comando git checkout -t origin/design, todo esse trabalho é feito automaticamente para a branch chamada design.</p>
+	<p>git push -d origin design - Este comando remove a branch remota design.</p>
+	<p>git push origin :design - Este comando remove a branch remota design.</p>
+	<p>git fetch origin - Este comando verifica todas as atualizações que foram realizadas no repositório de atalho origin.</p>
 </body>
 </html>
